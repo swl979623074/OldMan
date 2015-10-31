@@ -1,0 +1,244 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+.can{
+	margin:0px auto;
+	width: 1300px;
+	height: 1500px;
+	border: 1px solid;
+}
+.can .head{
+	width: 100%;
+	height: 80px;
+	background-color: #FFF0F5;
+	position: relative;
+}
+.can .head .backImg{
+	position: absolute;
+	width: 100%;
+	height: 80px;
+}
+.can .head .backImg img{
+	width: 1300px;
+	height: 100%;
+}
+.can .head .imgShow{
+	position: absolute;
+	height: 80px;
+}
+.can .head .imgShow img{
+	width: 150px;
+	height: 100%;
+}
+.can .head .textShow{
+	position: absolute;
+	top: 0px;
+}
+.can .head .textShow span{
+	height: 40px;
+	line-height: 80px;
+	padding: 35px;
+	font-size: 40px;
+}
+.can .head .textShow a{
+	/*color: red;*/
+	text-decoration: none;
+}
+.can .head .system{
+	position: absolute;
+	left:78%;
+}
+.can .head .system span{
+	line-height: 80px;
+	padding: 10px;
+	font-size: 20px;
+}
+.can .head .system a{
+	color: blue;
+	text-decoration: none;
+}
+.can .search{
+	width: 100%;
+	height: 40px;
+	margin-top: 30px;
+	position: relative;
+	top: 0px;
+}
+.can .search .baiduLogo{
+	width: 153px;
+	height:43px;
+	float: left;
+	position: absolute;
+	left: 245px;
+}
+.can .search img{
+	width: 100%;
+	height:100%;
+}
+.can .search .searchTest{
+	position: absolute;
+	left: 400px;
+}
+.can .search input[type="text"]{
+	width: 539px;
+	height: 40px;
+}
+.can .search input[type="button"]{
+	width: 100px;
+	height: 40px;
+	border-radius: 3px;
+}
+.can .content{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	top:35px;
+	border: 1px solid;
+	/*background-color: red;*/
+}
+.can .content .likeCt{
+	width: 23%;
+	height: 100%;
+	border: 1px solid;
+	position: absolute;
+	/*background-color: blue;*/
+}
+.can .content .likeCt .picLiked{
+	margin: 0 auto;
+	width: 280px;
+	height:200px;
+	border: 1px solid;
+}
+.can .content .likeCt .picLiked img{
+	width: 100%;
+	height: 100%;
+}
+.can .content .navigation{
+	width: 1020px;
+	height: 100%;
+	/*background-color: blue;*/
+	position: absolute;
+	left: 24%;
+}
+.can .content .navigation div{
+	width: 13%;
+	height: 100%;
+	border-left: 1px solid;
+	float: left;
+}
+.can .content .navigation span{
+	line-height: 40px;
+	padding-left: 25%;	
+	font-size: 20px;
+}
+.can .content .navigation li{
+	list-style-type: none;
+	height: 50px;
+	width: 100px;
+	/*border: 1px solid;*/
+	position: relative;
+	left: -23px;
+	margin-top: 10px;
+}
+.can .content .navigation img{
+	width: 50px;
+	height: 50px;
+}
+.can .content .navigation li span{
+	font-size: 20px;
+	position: relative;
+	top:-45px;
+	left: 30px;
+}
+.can .videoFocused{
+	width: 100%;
+	height: 300px;
+	/*background-color: blue;	*/
+	border: 1px solid;	
+	position: relative;
+	top:40px;
+}
+.can .videoFocused .title{
+	width: 100%;
+	height: 30px;
+	/*background-color: green;*/
+	position: relative;
+	top:-20px;
+}
+.can .videoFocused .title h3{
+	font-size: 25px;
+	height: 10px;
+	line-height: 20px;
+	color: red;
+}
+.can .videoFocused .videoList{
+	width: 25%;
+	height: 240px;
+	/*background-color: green;*/
+	border: 1px solid;	
+}
+.can .videoFocused .videoList table{
+	width: 100%;
+}
+.can .videoFocused .videoList li{
+	margin-top: 10px;
+	list-style-type: none;
+}
+.can .videoFocused .videoList th{
+	color: block;
+	font-size: 30px;
+}
+.can .videoFocused .videoList span{
+	font-size: 20px;
+}
+.can .videoFocused .videoList a{
+	color: blue;
+	text-decoration: none;
+}
+.can .videoFocused .videoLogo{
+	width: 75%;
+	height: 240px;
+	/*background-color: red;*/
+	border: 1px solid;	
+	position: relative;
+	top: -243px;
+	left:25%;
+}
+.can .videoFocused .videoLogo .leftCt{
+	width: 30%;
+	height: 100%;
+}
+.can .videoFocused .videoLogo .leftCt img{
+	width: 100%;
+	height: 100%;
+}
+.can .videoFocused .videoLogo .leftCt span{
+	font-size: 30px;
+	position: relative;
+	top:-30px;
+}
+.can .videoFocused .videoLogo .leftCt a{
+	color: white;
+}
+.can .videoFocused .videoLogo .rightCt{
+	width: 70%;
+	height: 100%;
+	background-color: gray;
+	position: relative;
+	left: 30%;
+	top:-107%;
+}
+.can .videoFocused .videoLogo .rightCt li{
+	list-style-type: none;
+	float: left;
+	width: 30%;
+	height: 50%;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.can .videoFocused .videoLogo .rightCt img{
+	width: 100%;
+	height: 100%;
+}
