@@ -1,6 +1,7 @@
 body{
 	margin:0px;
 	padding: 0px;
+	font-family: Verdana,Geneva,Arial,sans-serif;
 }
 .can{
 	margin:0px auto;
@@ -32,6 +33,7 @@ body{
 	height: 100%;
 }
 .can .head .textShow{
+	display: none;
 	position: absolute;
 	top: 0px;
 }
@@ -40,6 +42,7 @@ body{
 	line-height: 80px;
 	padding: 35px;
 	font-size: 40px;
+	font-weight: bold;
 }
 .can .head .textShow a{
 	/*color: red;*/
@@ -121,35 +124,35 @@ body{
 	position: absolute;
 	left: 24%;
 }
-.can .content .navigation div{
-	width: 13%;
-	height: 100%;
-	border-left: 1px solid;
-	float: left;
+.can .content .navigation ul{
+	list-style-type: none;
+	padding: 0px;
 }
-.can .content .navigation span{
-	line-height: 40px;
-	padding-left: 25%;	
-	font-size: 20px;
+.can .content .navigation ul .header{
+	margin-right: 30px;
+}
+.can .content .navigation ul .header span{
+	font-size: 30px;
 }
 .can .content .navigation li{
-	list-style-type: none;
-	height: 50px;
-	width: 100px;
-	/*border: 1px solid;*/
-	position: relative;
-	left: -23px;
-	margin-top: 10px;
+	display: inline;
+	margin-right: 20px;
+}
+.can .content .navigation li a{
+	font-size: 30px;
+}
+.can .content .navigation li a:link{
+	color: #0000FF;
+}
+.can .content .navigation li a:visited{
+	color: #00FF00;
+}
+.can .content .navigation li a:hover{
+	color: #FF0000;
 }
 .can .content .navigation img{
-	width: 50px;
-	height: 50px;
-}
-.can .content .navigation li span{
-	font-size: 20px;
-	position: relative;
-	top:-45px;
-	left: 30px;
+	width: 35px;
+	height: 35px;
 }
 .can .videoFocused{
 	width: 100%;
